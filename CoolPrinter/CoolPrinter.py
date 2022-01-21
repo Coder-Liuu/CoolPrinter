@@ -1,6 +1,3 @@
-__version__ = '0.1.0'
-
-
 from datetime import datetime
 import os
 
@@ -114,7 +111,8 @@ class CoolPrinter:
 
 
     def __del__(self):
-        self.save_file.close()
+        if self.save_file:
+            self.save_file.close()
 
 if __name__ == "__main__":
     printer = CoolPrinter(save_file="log.txt",show_time=True,show_file=True)

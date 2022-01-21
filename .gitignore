@@ -1,2 +1,4 @@
 __pycache__/
-setup.py/
+CoolPrinter/__pycache__/
+setup.py
+dist/
