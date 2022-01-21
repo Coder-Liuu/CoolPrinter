@@ -1,6 +1,9 @@
 __pycache__/
 CoolPrinter/__pycache__/
-setup.py
 dist/
 CoolPrinter.egg-info/
 build/
+trash/
+
+setup.py
+test.py
