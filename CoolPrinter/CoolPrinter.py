@@ -114,6 +114,9 @@ class CoolPrinter:
         if self.save_file:
             self.save_file.close()
 
+    def __str__(self):
+        print("I'am a cool printer")
+
 if __name__ == "__main__":
     printer = CoolPrinter(save_file="log.txt",show_time=True,show_file=True)
 

@@ -18,7 +18,7 @@ URL = 'https://github.com/coder-liuu/CoolPrinter'
 EMAIL = 'coder-liuu@126.com'
 AUTHOR = 'Coder-Liuu'
 REQUIRES_PYTHON = '>=3.0'
-VERSION = '0.1.0'
+VERSION = '0.1.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
